@@ -1,0 +1,24 @@
++------------------------+        +------------------------+
+|   TravelPackage        |        |    Destination         |
+|------------------------|        |------------------------|
+| - name                 |        | - name                 |
+| - passengerCapacity    |        | - activities           |
+| - itinerary            |        +------------------------+
+| - passengers           |
++------------------------+
+| + printItinerary()     |
+| + printPassengerList()  |
+| + otherMethods()        |
++------------------------+
+
++------------------------+        +------------------------+
+|   Activity             |        |    Passenger           |
+|------------------------|        |------------------------|
+| - name                 |        | - name                 |
+| - description          |        | - passengerNumber      |
+| - cost                 |        | - balance              |
+| - capacity             |        | - activities           |
+| - destination          |        +------------------------+
++------------------------+
+| + otherMethods()        |
++------------------------+
